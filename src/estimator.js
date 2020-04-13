@@ -28,5 +28,5 @@ let estimate;
   
 
 
-
+}
     module.exports = covid19ImpactEstimator;
