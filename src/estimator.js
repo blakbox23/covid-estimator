@@ -23,8 +23,10 @@ let estimate;
     const casesOf = (cases, num) => cases * num;
     impact.currentlyInfected = getCases(reportedCases, 10);
     impact.infectionsByRequestedTime = getCases(impact.currentlyInfected, result);
+    
+    return { data, impact, severeImpact };
   
 
 
 
-export default covid19ImpactEstimator;
+    module.exports = covid19ImpactEstimator;
